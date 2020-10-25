@@ -1,0 +1,35 @@
+.skicast {
+    width: 200px;
+    margin-right: 0px;
+    margin-left: 125px;
+}
+
+.skicast .table th, tr, td {
+    text-align: left;
+    table-layout: fixed;
+}
+
+.skicast tr {
+    height: 28px;
+}
+
+.skicast th {
+    line-height: 20%;
+}
+
+.skicast .img {
+    width: 64px;
+    height: 64px;
+    align-content: center;
+}
+
+.font {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.skicast .xxsmall {
+    font-size: 12px;
+    color: #a4c6c5;
+    margin: 10px;
+}
