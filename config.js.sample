@@ -1,0 +1,31 @@
+// To be added to config     
+        
+        {
+			module: "currentweather",
+			position: "top_right",
+			config: {
+				location: "Courchevel",
+				locationID: "6442864", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				appid: "260883c29451a1d9c9533f655afc522b"
+			}
+		},
+		{
+			module: "weatherforecast",
+			position: "top_right",
+			header: "Weather Forecast",
+			config: {
+				location: "Courchevel",
+				locationID: "6442864", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				appid: "260883c29451a1d9c9533f655afc522b"
+			}
+		},
+		{
+			module: "skicast",
+			position: "top_right",
+			header: "Snow Conditions",
+			config: {
+				location: "Courchevel",
+				locationID: "", 
+				appid: ""
+			}
+		},

@@ -95,5 +95,19 @@ Module.register("skicast", {
 			}
 			table.appendChild(row);
 		}
-	}
+	},
+
+	// Override get header
+	getheader: function () {
+		if (this.config.appendLocationNameToHeader) {
+			if (this.data.header) {
+				return this.data.header + " " + this.fetchedLocationName;
+			}
+			else {
+				return this.fetchedLocationName;
+			}
+		}
+		return this.data.header ? this.data.header : "";
+	},
+	
 })
